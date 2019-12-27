@@ -14,6 +14,9 @@ public class BookShop implements Cloneable
 	
 	private String shopName;
 	List<Book> bookList = new ArrayList<>();
+	
+	
+	
 	public String getShopName() {
 		return shopName; 
 	}

@@ -6,7 +6,7 @@ public class Audi implements Car
 	@Override
 	public void specification()
 	{
-		System.out.println("second last expensive Car");
+		System.out.println("Audi -->second last expensive Car");
 		
 	}
 

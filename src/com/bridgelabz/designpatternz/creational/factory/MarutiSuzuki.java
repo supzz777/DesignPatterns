@@ -7,7 +7,7 @@ public class MarutiSuzuki implements Car
 	public void specification() 
 	{
 		
-		System.out.println("cheapest Car");
+		System.out.println("Maruti Suzuki -->cheapest Car");
 		
 	}
 	

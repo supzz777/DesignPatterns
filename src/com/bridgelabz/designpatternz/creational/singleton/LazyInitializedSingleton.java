@@ -18,9 +18,14 @@ package com.bridgelabz.designpatternz.creational.singleton;
 	    //it creates the object in the global acess method.
 	    public static LazyInitializedSingleton getInstance()
 	    {
+	    	
 		        if(instance == null)
 		        {
+		        	
 		            instance = new LazyInitializedSingleton();
+		            System.out.println("LazyInitializedSingleton acheived.");
+		        	
+
 		        }
 		        return instance;
 		        

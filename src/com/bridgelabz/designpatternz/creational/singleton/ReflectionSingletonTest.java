@@ -12,7 +12,7 @@ public class ReflectionSingletonTest
 	        
 	        EagerInitializedSingleton instanceTwo = null;
 	        
-		   try 
+		   try  
 		   {
              Constructor[] constructors = EagerInitializedSingleton.class.getDeclaredConstructors();
              for (Constructor constructor : constructors) 

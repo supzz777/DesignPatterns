@@ -44,7 +44,13 @@ public class Demo
 		
 		System.out.println("After removing the index.");
 		System.out.println("bs object --->"+bs);
+		
+		System.out.println("Shallow Clonning");
+		System.out.println();
 		System.out.println("bs1 object changed as bs--->"+bs1); //shallow clonning
+		
+		System.out.println("Deep Clonning");
+		System.out.println();
 		System.out.println("bs2 object not changed as bs--->"+bs2); //deep clonning
 		 
 		

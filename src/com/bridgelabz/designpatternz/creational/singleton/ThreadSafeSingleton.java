@@ -41,9 +41,12 @@ public class ThreadSafeSingleton
 	            {
 	                if(instance == null)
 	                {
+	                	  System.out.println("ThreadSafeSingleton acheived.");
 	                    instance = new ThreadSafeSingleton();
+	                    
+	                  
 	                }
-	            }
+	            } 
 	        }
 	        return instance;
 	    }

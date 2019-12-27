@@ -19,6 +19,7 @@ package com.bridgelabz.designpatternz.creational.singleton;
 	    //calling the object from public method.
 	    public static BillPughSingleton getInstance()
 	    {
+	    	System.out.println("BillPughSingleton acheived.");
 	        return SingletonHelper.INSTANCE;
 	    }
 	    

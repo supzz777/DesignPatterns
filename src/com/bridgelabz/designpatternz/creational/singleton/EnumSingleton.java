@@ -10,7 +10,8 @@ package com.bridgelabz.designpatternz.creational.singleton;
 	    public static void doSomething()
 	    {
 	        //do something
-	    }
+	    	System.out.println("EnumSingleton acheived.");
+	    } 
 	    
 	    
 	}

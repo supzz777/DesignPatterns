@@ -24,6 +24,7 @@ import java.io.Serializable;
 	    //public method
 	    public static SerializedSingleton getInstance()
 	    {
+	    	System.out.println("SerializedSingleton acheived.");
 	        return SingletonHelper.instance;
 	    }
 	    

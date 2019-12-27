@@ -26,12 +26,13 @@ package com.bridgelabz.designpatternz.creational.singleton;
 	            throw new RuntimeException("Exception occured in creating singleton instance");
 	        }
 	        
-	    }
+	    } 
 	    
 	    
 	    //public method to give acess
 	    public static StaticBlockSingleton getInstance()
 	    {
+	    	System.out.println("StaticBlockSingleton acheived.");
 	        return instance;
 	    }
 	    

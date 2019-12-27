@@ -16,7 +16,7 @@ public class FactoryMain
 		
 		OperatingSystemFactory osf = new OperatingSystemFactory();
 		
-		Car car1 = osf.getInstance("dtynr"); /* here by typing string you are not showing
+		Car car1 = osf.getInstance("Cheap"); /* here by typing string you are not showing
 		which class you are working upon with. */
 		
 		car1.specification();
